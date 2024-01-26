@@ -11,7 +11,7 @@ async function getData() {
   return products;
 }
 
-export default async function Home({ products }) {
+export default async function Home() {
   const data = await getData();
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
